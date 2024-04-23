@@ -1,0 +1,65 @@
+---
+title:  Instagram Data
+author: "Estrella Hurtado\n\n\n Alina Valliani"
+date: April 22, 2024
+output: slidy_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Introduction
+
+Our data is derived from Instagram accounts and comes from the website known as Kaggle.com. The data contains usernames, followers, followers, likes, comments, and locations for different accounts. This data is interesting because it has a large sample of different accounts where we can draw conclusions about patterns in engagement scores. In the data, we used some categories, such as followers, buckets, caption lengths, and keyword buckets.  
+
+* A Link to the data https://www.kaggle.com/datasets/propriyam/instagram-data
+
+
+## Problem Statement and Questions
+
+To understand Instagram engagement trends and the factors contributing to post and videos. 
+
+When do posts get the most engagement?
+What trends do we see based on posts with the highest engagement? 
+What is the relationship between caption length and engagement?
+From pictures and videos which one get the most highest engagement? 
+What types of accounts have the most followers?
+
+
+## Instagram Accounts 
+
+* Please imagine a scores, from 1 to 4.
+
+1 represents the account with the lowest followers. 
+
+2, 3 represents the account with the average followers.
+
+4 represents the account with the highest followers. 
+
+## What Libraries did you use?
+
+* library(tidyverse)  Use to tidy and filter the data with dplyr
+
+* library(lubridate)  Use to formate dates
+
+## Let’s take a look at the unfiltered data
+
+
+
+
+## Key Terms
+
+* owner username: 
+shortcode       
+is_video        
+caption         
+comments        
+likes           
+created_at      
+location        
+imageUrl        
+multiple_images 
+username       
+followers       
+following   
